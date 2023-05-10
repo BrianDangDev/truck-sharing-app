@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">TruckSharingApp</string>
+    <string name="new_order">New Order</string>
+    <string name="receiver_name">Receiver Name</string>
+    <string name="pick_up_date">Pick Up Date</string>
+    <string name="pick_up_time">Pick Up Time</string>
+    <string name="pick_up_location">Pick Up Location</string>
+    <string name="next">Next</string>
+    <string name="height">Height</string>
+    <string name="good_type">Good Type :</string>
+    <string name="weight_and_dimensions">Weight and Dimensions :</string>
+    <string name="weight">Weight</string>
+    <string name="width">Width</string>
+    <string name="length">Length</string>
+    <string name="vehicle_type">Vehicle Type :</string>
+    <string name="create_order">Create Order</string>
+    <string name="quantity">Quantity</string>
+    <string name="lengths">Length :</string>
+    <string name="quantitys">Quantity :</string>
+    <string name="from_sender">From Brian</string>
+    <string name="good_description">Good Description</string>
+    <string name="weights">Weight :</string>
+    <string name="types">Type :</string>
+    <string name="widths">Width:</string>
+    <string name="heights">Height :</string>
+    <string name="call_driver">Call Driver</string>
+
+    <integer-array name="truck_img">
+        <item>@drawable/truck</item>
+        <item>@drawable/van</item>
+        <item>@drawable/refrigrated_truck</item>
+        <item>@drawable/mini_truck</item>
+    </integer-array>
+
+    <string-array name="truck_name">
+        <item>Mitsubishi Fuso</item>
+        <item>Kia Sorento</item>
+        <item>Carrier</item>
+        <item>Keyton Motor</item>
+    </string-array>
+
+    <string-array name="truck_type">
+        <item>Truck</item>
+        <item>VAN</item>
+        <item>Refigrated Truck</item>
+        <item>Mini Truck</item>
+    </string-array>
+    <string name="title_activity_pick_location">PickLocationActivity</string>
+    <string name="title_activity_estimate_maps">EstimateMapsActivity</string>
+    <string name="google_maps_key">AIzaSyBi_jjofnuRfaEi3SgG0UFCZJv4IGlyV3g</string>
+    <string name="api_key">AIzaSyDOvISU-SBw9JTc_LyjKK4aYZ-2G8o-jF4</string>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".feedbackPage">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="159dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="159dp"
+        android:text="Feedback "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/textSpoken"
+        android:layout_width="190dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="262dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="316dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Good service. Keep improving!"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/micIcon"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/micIcon"
+        android:layout_width="42dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="368dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="316dp"
+        android:onClick="speak"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.636"
+        app:srcCompat="@drawable/mic" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
